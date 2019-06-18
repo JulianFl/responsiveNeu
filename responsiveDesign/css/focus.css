@@ -1,0 +1,195 @@
+.tx-hive-cpt-cnt-img {
+    margin-bottom: 15px
+}
+
+.tx-hive-cpt-cnt-img .landscape,.tx-hive-cpt-cnt-img .portrait,.tx-hive-cpt-cnt-img .square {
+    width: 100%;
+    height: 0;
+    position: relative;
+    overflow: hidden
+}
+
+.tx-hive-cpt-cnt-img .landscape .focuhila,.tx-hive-cpt-cnt-img .portrait .focuhila,.tx-hive-cpt-cnt-img .square .focuhila {
+    width: 100%;
+    height: 100%;
+    position: absolute
+}
+
+.tx-hive-cpt-cnt-img .landscape .focuhila img,.tx-hive-cpt-cnt-img .portrait .focuhila img,.tx-hive-cpt-cnt-img .square .focuhila img {
+    -webkit-transition: height 1s,opacity 2s;
+    -o-transition: height 1s,opacity 2s;
+    transition: height 1s,opacity 2s
+}
+
+.tx-hive-cpt-cnt-img .landscape .focuhila .figcaption,.tx-hive-cpt-cnt-img .landscape .focuhila figcaption,.tx-hive-cpt-cnt-img .portrait .focuhila .figcaption,.tx-hive-cpt-cnt-img .portrait .focuhila figcaption,.tx-hive-cpt-cnt-img .square .focuhila .figcaption,.tx-hive-cpt-cnt-img .square .focuhila figcaption {
+    width: 100%;
+    position: absolute;
+    bottom: 15px
+}
+
+.tx-hive-cpt-cnt-img .aR.square {
+    padding-bottom: 100%
+}
+
+@media (min-width: 576px) {
+    .tx-hive-cpt-cnt-img .aR.square {
+        padding-bottom:100%
+    }
+}
+
+.tx-hive-cpt-cnt-img .aR.landscape {
+    padding-bottom: 100%
+}
+
+@media (min-width: 576px) {
+    .tx-hive-cpt-cnt-img .aR.landscape {
+        padding-bottom:75%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_5 {
+        padding-bottom: 42.85714%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_9 {
+        padding-bottom: 56.25%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--16_9,.tx-hive-cpt-cnt-img .aR.landscape.aR--4_3 {
+        padding-bottom: 75%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--3_2 {
+        padding-bottom: 66.66667%
+    }
+}
+
+@media (min-width: 768px) {
+    .tx-hive-cpt-cnt-img .aR.landscape {
+        padding-bottom:66.66667%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_5 {
+        padding-bottom: 23.80952%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_9 {
+        padding-bottom: 42.85714%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--16_9 {
+        padding-bottom: 56.25%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--4_3 {
+        padding-bottom: 75%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--3_2 {
+        padding-bottom: 66.66667%
+    }
+}
+
+@media (min-width: 992px) {
+    .tx-hive-cpt-cnt-img .aR.landscape {
+        padding-bottom:56.25%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_5 {
+        padding-bottom: 23.80952%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_9 {
+        padding-bottom: 42.85714%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--16_9 {
+        padding-bottom: 56.25%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--4_3 {
+        padding-bottom: 75%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--3_2 {
+        padding-bottom: 66.66667%
+    }
+}
+
+@media (min-width: 1200px) {
+    .tx-hive-cpt-cnt-img .aR.landscape {
+        padding-bottom:56.25%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_5 {
+        padding-bottom: 23.80952%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--21_9 {
+        padding-bottom: 42.85714%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--16_9 {
+        padding-bottom: 56.25%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--4_3 {
+        padding-bottom: 75%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.landscape.aR--3_2 {
+        padding-bottom: 66.66667%
+    }
+}
+
+.tx-hive-cpt-cnt-img .aR.portrait {
+    padding-bottom: 100%
+}
+
+@media (min-width: 576px) {
+    .tx-hive-cpt-cnt-img .aR.portrait {
+        padding-bottom:133.33333%
+    }
+}
+
+@media (min-width: 768px) {
+    .tx-hive-cpt-cnt-img .aR.portrait {
+        padding-bottom:150%
+    }
+}
+
+@media (min-width: 992px) {
+    .tx-hive-cpt-cnt-img .aR.portrait.aR--3_4 {
+        padding-bottom:133.33333%
+    }
+
+    .tx-hive-cpt-cnt-img .aR.portrait.aR--2_3 {
+        padding-bottom: 150%
+    }
+}
+
+
+img.opacity_0 {
+    opacity: .05
+}
+
+img.opacity_0.fadeIn {
+    opacity: 1;
+    -webkit-transition: opacity 2s;
+    -o-transition: opacity 2s;
+    transition: opacity 2s
+}
+
+.Viechereien figcaption{
+
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    background-color: #e17230;opacity: .6}
+.tx-hive-cpt-cnt-img .landscape .focuhila .figcaption, .tx-hive-cpt-cnt-img .landscape .focuhila figcaption, .tx-hive-cpt-cnt-img .portrait .focuhila .figcaption, .tx-hive-cpt-cnt-img .portrait .focuhila figcaption, .tx-hive-cpt-cnt-img .square .focuhila .figcaption, .tx-hive-cpt-cnt-img .square .focuhila figcaption{bottom: 0}
+
+.tx-hive-cpt-cnt-img{height:100% }
+.tx-hive-cpt-cnt-img > div{height: 100% !important}
+.tx-hive-cpt-cnt-img .focuhila{height:100%}
